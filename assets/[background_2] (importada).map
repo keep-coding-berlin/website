@@ -1,0 +1,10 @@
+<img src="assets/background_2.jpg" width="2000" height="1391" border="0" usemap="#map" />
+
+<map name="map">
+<area shape="poly" coords="430,336,527,332,628,316,721,291,722,580,428,580,429,461" alt="first_option" href="first_option.html" />
+<area shape="poly" coords="892,216,994,202,1100,202,1205,214,1205,578,891,576,892,573" alt="second_option" href="second_option.html" />
+<area shape="poly" coords="1373,290,1467,323,1569,336,1663,340,1664,577,1373,578,1373,577" alt="third_option" href="third_option.html" />
+<area shape="poly" coords="428,867,459,860,487,859,523,868,523,846,558,839,588,836,622,846,623,870,662,859,690,858,720,867,721,1154,427,1154,428,1060" alt="fourth_option" href="fourth_option.html" />
+<area shape="poly" coords="892,866,925,857,955,857,993,870,994,845,1034,837,1063,835,1100,845,1102,867,1142,857,1173,858,1207,866,1207,1157,891,1156" alt="fift_option" href="fift_option.html" />
+<area shape="poly" coords="1377,862,1407,855,1436,854,1470,863,1472,840,1508,833,1534,834,1569,842,1569,865,1606,853,1635,852,1666,864,1664,1152,1374,1154" alt="sixth_option" href="sixth_option.html" />
+</map>

@@ -1,0 +1,92 @@
+/* * {
+    box-sizing: border-box;
+} */
+
+nav {
+    padding: 20px;
+}
+
+img {
+    display: inline-block;
+}
+
+img.logo {
+    width: auto;
+    height: 50px;
+}
+
+img.menu {
+    float: right;
+    width: auto;
+    height: 50px;
+}
+
+img.icon {
+    width: 10vw;
+    height: 10vh;
+    float: left;
+    padding: 30px;
+}
+
+/* https://codepen.io/yancy/pen/gBLLxz & https://developer.mozilla.org/en-US/docs/Web/CSS/:hover*/
+.background {
+    filter: grayscale(100%);
+}
+
+.background:hover {
+    filter: grayscale(0%);
+}
+
+section {
+    width: 100%;
+    border: 1px;
+}
+
+div.column {
+    float: left;
+    width: 50%;
+    margin: auto;
+}
+
+div.bullet-flows-left {
+    float: right;
+    margin: 20px;
+    background-color: lightblue;
+}
+
+div.bullet-flows-right {
+    float: left;
+    margin: 20px;
+    background-color: lightcoral;
+}
+
+div.image {
+    display: inline;
+}
+
+div.text-left {
+    float: left;
+    display: inline;
+    padding: 10px;
+    margin: auto;
+}
+
+div.text-right {
+    float: right;
+    display: inline;
+    text-align: right;
+    padding: 10px;
+    margin: auto;
+}
+
+footer {
+    padding: 2%;
+    text-align: center;
+    display: block;
+}
+
+header.title {
+    padding-top: 2%;
+    margin: auto;
+    text-align: center;
+}
