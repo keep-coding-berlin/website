@@ -1,45 +1,121 @@
-/* * {
+/* 
+general settings
+
+*, *::before, *::after { 
     box-sizing: border-box;
-} */
+ }
 
-nav {
-    padding: 20px;
+*/
+
+ html {
+    scroll-behavior: smooth;
 }
 
-img {
-    display: inline-block;
+/* 
+basic font and textdesign 
+*/
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(0,0,0);
 }
 
-img.logo {
-    width: auto;
-    height: 50px;
+h1 {
+    text-align: center;
+    margin: 0px;
+    padding: 25px;
 }
 
-img.menu {
-    float: right;
-    width: auto;
-    height: 50px;
+p {
+    margin: 0px;
+    padding: 25px;
 }
 
-img.icon {
-    width: 10vw;
-    height: 10vh;
-    float: left;
-    padding: 30px;
-}
-
-/* https://codepen.io/yancy/pen/gBLLxz & https://developer.mozilla.org/en-US/docs/Web/CSS/:hover*/
-.background {
-    filter: grayscale(100%);
-}
-
-.background:hover {
-    filter: grayscale(0%);
-}
 
 section {
     width: 100%;
     border: 1px;
+}
+
+/*
+navigation
+*/
+
+.header-navbar {
+    position: sticky;
+    top: 0;
+}
+
+.header-navbar-list {
+    display: flex;
+    justify-content: flex-end;
+    background-color:rgb(255, 255, 255);
+    padding: 30px 30px 25px;
+    box-shadow: rgba(0,0,0,0.2) 0px 2px 7px 0px;
+    margin: 0px;
+}
+
+.header-navbar-list li {
+    list-style-type: none;
+    text-decoration: none;
+    margin-right: 50px;
+    cursor: pointer;
+}
+
+li a {
+    color: rgb(0,0,0);
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.header-navbar-list a:hover {
+    color:rgb(195, 137, 67);
+}
+
+/*
+header image
+*/
+
+/* https://codepen.io/yancy/pen/gBLLxz & https://developer.mozilla.org/en-US/docs/Web/CSS/:hover*/
+.header-image {
+    filter: grayscale(100%);
+    padding-top: 2px;
+}
+
+.header-image:hover {
+    filter: grayscale(0%);
+}
+
+/*
+sections
+*/
+
+.about {
+    height: 300px;
+    background-color: rgb(244, 240, 236);
+}
+
+.members {
+    height: 500px;
+}
+
+.references {
+    height: 300px;
+    background-color: rgb(244, 240, 236);
+}
+
+.contact {
+    height: 400px;
+}
+
+/*
+boxes in the section members
+*/
+
+header.title {
+    margin: auto;
+    text-align: center;
 }
 
 div.column {
@@ -60,10 +136,6 @@ div.bullet-flows-right {
     background-color: lightcoral;
 }
 
-div.image {
-    display: inline;
-}
-
 div.text-left {
     float: left;
     display: inline;
@@ -79,14 +151,27 @@ div.text-right {
     margin: auto;
 }
 
-footer {
-    padding: 2%;
-    text-align: center;
-    display: block;
+
+/*
+navigation-footer
+*/
+
+.footer-navbar-list {
+    display: flex;
+    justify-content: flex-end;
+    padding: 30px 30px 50px;
+    margin: 0;
 }
 
-header.title {
-    padding-top: 2%;
-    margin: auto;
-    text-align: center;
+.footer-navbar-list li{
+    list-style-type: none;
+    margin-right: 25px;
+    cursor: pointer;
+    color: rgb(0,0,0);
 }
+
+.footer-navbar-list a:hover {
+    color:rgb(195, 137, 67);
+}
+
+
