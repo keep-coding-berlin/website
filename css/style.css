@@ -95,20 +95,23 @@ header slogan
 
 .members {
     padding-top: 70px;
-    height: 1200px;
+    height: 1000px;
 }
 
 .about {
     padding-top: 70px;
+    height: 550px;
     background-color: rgb(244, 240, 236);
 }
 
 .references {
     padding-top: 70px;
+    height: 300px;
 }
 
 .contact {
     height: 400px;
+    background-color: rgb(244, 240, 236);
 }
 
 /*grid-boxes in the section members*/
@@ -126,7 +129,7 @@ header slogan
 
 figure {
     background-color: rgb(255,255,255);
-    padding: 20px;
+    padding: 50px;
     margin: 15px;
  
 }
