@@ -26,8 +26,11 @@ h1 {
 }
 
 p {
-    margin: 0px;
+    font-size: 20px;
+    margin: 0px 60px 0px 60px;
     padding: 25px;
+    line-height: 25px;
+
 }
 
 section {
@@ -94,22 +97,23 @@ header slogan
 }
 
 .members {
-    padding-top: 70px;
+    padding-top: 75px;
     height: 1000px;
 }
 
 .about {
-    padding-top: 70px;
-    height: 550px;
+    padding-top: 75px;
+    height: 1100px;
     background-color: rgb(244, 240, 236);
 }
 
 .references {
-    padding-top: 70px;
-    height: 300px;
+    padding-top: 75px;
+    height: 800px;
 }
 
 .contact {
+    padding-top: 75px;
     height: 400px;
     background-color: rgb(244, 240, 236);
 }
@@ -131,7 +135,6 @@ figure {
     background-color: rgb(255,255,255);
     padding: 50px;
     margin: 15px;
- 
 }
 
 figure:hover {
@@ -153,13 +156,8 @@ figure img {
 }
 
 /*
-boxes in the section members
+flexboxes for the principles"
 */
-
-header.title {
-    margin: auto;
-    text-align: center;
-}
 
 div.column {
     float: left;
@@ -194,6 +192,16 @@ div.text-right {
     margin: auto;
 }
 
+/*list of references*/
+
+.references-list {
+
+    padding-left: 50px;
+}
+
+.references-list li {
+    font-size: 20px;
+}
 
 /*
 navigation-footer
